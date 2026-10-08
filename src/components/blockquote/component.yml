@@ -1,0 +1,33 @@
+name: Blockquote
+machineName: blockquote
+status: true
+required:
+  - textColor
+props:
+  properties:
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - Insert a quote...
+    textColor:
+      type: string
+      enum:
+        - dark
+        - light
+      meta:enum:
+        dark: Dark
+        light: Light
+      title: Text Color
+      examples:
+        - dark
+    name:
+      type: string
+      title: Name
+    title:
+      type: string
+      title: Title
+slots: {}
+dataDependencies: {}

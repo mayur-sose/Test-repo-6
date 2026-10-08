@@ -1,0 +1,270 @@
+{
+  "uuid": "bc2592d0-d751-4093-9c12-0bbe7b739caf",
+  "title": "Portal Home",
+  "path": "/portal-home",
+  "description": "Traverse Cycles brand portal home page",
+  "elements": {
+    "11111111-0000-4000-8000-000000000001": {
+      "type": "js.portal_hero",
+      "props": {
+        "text": "One kit for the whole rollout — hero photography, component detail, retail POS and social crops, all rights-cleared and version-locked to the 12 Sep drop.",
+        "image": {
+          "src": "/sites/default/files/2026-09/cyclists.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-09/cyclists.jpg.avif%3Fitok%3DgAPAh5X4",
+          "alt": "Two cyclists standing on bikes with colorful wheels on a tree-lined path",
+          "width": 2528,
+          "height": 1684
+        },
+        "heading": "Everything the Apex 9 launch ships with.",
+        "preHeading": "CAMPAIGN WORKSPACE / FY26 Q3"
+      },
+      "slots": {
+        "buttons": [
+          "22222222-0000-4000-8000-000000000001"
+        ]
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "66"
+        }
+      }
+    },
+    "22222222-0000-4000-8000-000000000001": {
+      "type": "js.button",
+      "props": {
+        "link": "/asset-library",
+        "text": "Open campaign kit",
+        "variant": "solid"
+      }
+    },
+    "11111111-0000-4000-8000-000000000002": {
+      "type": "js.spacer",
+      "props": {
+        "height": "large"
+      }
+    },
+    "11111111-0000-4000-8000-000000000003": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "248 approved assets across 6 lines",
+        "title": "Bike categories"
+      }
+    },
+    "11111111-0000-4000-8000-000000000004": {
+      "type": "js.grid_container",
+      "props": {
+        "gap": "large",
+        "layout": "33-33-33"
+      },
+      "slots": {
+        "content": [
+          "33333333-0000-4000-8000-000000000001",
+          "33333333-0000-4000-8000-000000000002",
+          "33333333-0000-4000-8000-000000000003",
+          "33333333-0000-4000-8000-000000000004",
+          "33333333-0000-4000-8000-000000000005",
+          "33333333-0000-4000-8000-000000000006"
+        ]
+      }
+    },
+    "33333333-0000-4000-8000-000000000001": {
+      "type": "js.category_card",
+      "props": {
+        "link": "/category/mountain",
+        "name": "Mountain",
+        "count": "62 assets",
+        "image": {
+          "src": "/sites/default/files/2026-08/axel-brunst-yr22qT5pqw4-unsplash.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-08/axel-brunst-yr22qT5pqw4-unsplash.jpg.avif%3Fitok%3DDQknS_rP",
+          "alt": "mountain bike",
+          "width": 2765,
+          "height": 1843
+        },
+        "eyebrow": "Trail / Enduro",
+        "linkLabel": "View assets"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "46"
+        }
+      }
+    },
+    "33333333-0000-4000-8000-000000000002": {
+      "type": "js.category_card",
+      "props": {
+        "link": "/category/road-racing",
+        "name": "Road & Racing",
+        "count": "54 assets",
+        "image": {
+          "src": "/sites/default/files/2026-08/tuvalum-FkFCGm4OcXA-unsplash.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-08/tuvalum-FkFCGm4OcXA-unsplash.jpg.avif%3Fitok%3Dh-1mbne-",
+          "alt": "road racing",
+          "width": 5367,
+          "height": 3578
+        },
+        "eyebrow": "Race / Aero",
+        "linkLabel": "View assets"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "6"
+        }
+      }
+    },
+    "33333333-0000-4000-8000-000000000003": {
+      "type": "js.category_card",
+      "props": {
+        "link": "/category/gravel",
+        "name": "Gravel",
+        "count": "41 assets",
+        "image": {
+          "src": "/sites/default/files/2026-08/gravel-bike.jpeg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-08/gravel-bike.jpeg.avif%3Fitok%3DHU2ULSG3",
+          "alt": "gravel bike standing",
+          "width": 672,
+          "height": 456
+        },
+        "eyebrow": "All-Road",
+        "linkLabel": "View assets"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "11"
+        }
+      }
+    },
+    "33333333-0000-4000-8000-000000000004": {
+      "type": "js.category_card",
+      "props": {
+        "link": "/category/e-bike",
+        "name": "E-Bike",
+        "count": "38 assets",
+        "image": {
+          "src": "/sites/default/files/2026-08/harley-davidson-HG3Zy9sCCUg-unsplash_resized.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-08/harley-davidson-HG3Zy9sCCUg-unsplash_resized.jpg.avif%3Fitok%3DkGhlcsQ1",
+          "alt": "e bike",
+          "width": 2765,
+          "height": 1843
+        },
+        "eyebrow": "Non Pedal Assist",
+        "linkLabel": "View assets"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "31"
+        }
+      }
+    },
+    "33333333-0000-4000-8000-000000000005": {
+      "type": "js.category_card",
+      "props": {
+        "link": "/category/urban",
+        "name": "Urban",
+        "count": "29 assets",
+        "image": {
+          "src": "/sites/default/files/2026-08/urban_image_resized.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-08/urban_image_resized.jpg.avif%3Fitok%3DBjoMvp6D",
+          "alt": "urban bike image run by a man",
+          "width": 2765,
+          "height": 1843
+        },
+        "eyebrow": "City / Commuter",
+        "linkLabel": "View assets"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "56"
+        }
+      }
+    },
+    "33333333-0000-4000-8000-000000000006": {
+      "type": "js.category_card",
+      "props": {
+        "link": "/category/kids",
+        "name": "Kids",
+        "count": "24 assets",
+        "image": {
+          "src": "/sites/default/files/2026-09/kids-bike.png?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-09/kids-bike.png.avif%3Fitok%3DNceBc0al",
+          "alt": "Turquoise children's bicycle displayed against a whimsical pastel background with castles and rainbows",
+          "width": 1264,
+          "height": 848
+        },
+        "eyebrow": "First Rides",
+        "linkLabel": "View assets"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "1"
+        }
+      }
+    },
+    "11111111-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "large"
+      }
+    },
+    "11111111-0000-4000-8000-000000000006": {
+      "type": "js.section_header",
+      "props": {
+        "title": "Featured collections"
+      }
+    },
+    "11111111-0000-4000-8000-000000000007": {
+      "type": "js.grid_container",
+      "props": {
+        "gap": "large",
+        "layout": "33-33-33"
+      },
+      "slots": {
+        "content": [
+          "44444444-0000-4000-8000-000000000001",
+          "44444444-0000-4000-8000-000000000002",
+          "44444444-0000-4000-8000-000000000003"
+        ]
+      }
+    },
+    "44444444-0000-4000-8000-000000000001": {
+      "type": "js.collection_card",
+      "props": {
+        "link": "/collection/2026-apex-launch",
+        "meta": "36 assets · Updated Aug 4",
+        "text": "Hero photography, banners and social crops for the Apex 9 mountain launch.",
+        "title": "2026 Apex Launch",
+        "eyebrow": "Campaign",
+        "linkLabel": "Open collection"
+      }
+    },
+    "44444444-0000-4000-8000-000000000002": {
+      "type": "js.collection_card",
+      "props": {
+        "link": "/collection/component-library",
+        "meta": "58 assets · Updated Jul 28",
+        "text": "Frames, wheelsets, drivetrains and cockpit details on white.",
+        "title": "Component Library",
+        "eyebrow": "Components",
+        "linkLabel": "Open collection"
+      }
+    },
+    "44444444-0000-4000-8000-000000000003": {
+      "type": "js.collection_card",
+      "props": {
+        "link": "/collection/logos-brand-marks",
+        "meta": "22 assets · Updated Jun 12",
+        "text": "Primary logos, monograms and clear-space guides in all formats.",
+        "title": "Logos & Brand Marks",
+        "eyebrow": "Identity",
+        "linkLabel": "Open collection"
+      }
+    },
+    "11111111-0000-4000-8000-000000000008": {
+      "type": "js.spacer",
+      "props": {
+        "height": "large"
+      }
+    },
+    "11111111-0000-4000-8000-000000000009": {
+      "type": "js.cta_banner",
+      "props": {
+        "link": "/contact",
+        "text": "Request custom crops, new formats or unreleased campaign assets from the brand team.",
+        "heading": "Need something you can't find?",
+        "linkLabel": "Contact brand team"
+      }
+    }
+  }
+}

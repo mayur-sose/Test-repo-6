@@ -1,0 +1,78 @@
+name: Heading
+machineName: heading
+status: true
+required:
+  - textColor
+  - headingElement
+  - headingSize
+  - layout
+props:
+  properties:
+    preHeading:
+      type: string
+      title: Pre Heading
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Enter a heading...
+    textColor:
+      type: string
+      enum:
+        - dark
+        - light
+      meta:enum:
+        dark: Dark
+        light: Light
+      title: Text Color
+      examples:
+        - dark
+    headingElement:
+      type: string
+      enum:
+        - h1
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+      meta:enum:
+        h1: h1
+        h2: h2
+        h3: h3
+        h4: h4
+        h5: h5
+        h6: h6
+      title: Heading Element
+      examples:
+        - h2
+    headingSize:
+      type: string
+      enum:
+        - small
+        - medium
+        - large
+        - extra_large
+      meta:enum:
+        small: Small
+        medium: Medium
+        large: Large
+        extra_large: Extra Large
+      title: Heading Size
+      examples:
+        - medium
+    layout:
+      type: string
+      enum:
+        - left_aligned
+        - center_aligned
+        - right_aligned
+      meta:enum:
+        left_aligned: Left aligned
+        center_aligned: Center aligned
+        right_aligned: Right aligned
+      title: Layout
+      examples:
+        - left_aligned
+slots: {}
+dataDependencies: {}

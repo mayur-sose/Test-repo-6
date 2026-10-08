@@ -1,0 +1,31 @@
+name: CTA Banner
+machineName: cta_banner
+status: true
+required:
+  - heading
+props:
+  properties:
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Need something you can't find?
+    text:
+      type: string
+      title: Text
+      examples:
+        - Request custom crops, new formats or unreleased campaign assets from
+          the brand team.
+    link:
+      type: string
+      format: uri-reference
+      title: Link
+      examples:
+        - /contact
+    linkLabel:
+      type: string
+      title: Link Label
+      examples:
+        - Contact brand team
+slots: {}
+dataDependencies: {}

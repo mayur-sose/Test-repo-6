@@ -1,0 +1,49 @@
+{
+  "uuid": "ab5a2d03-eced-4375-aeb2-095c61688432",
+  "title": "Logos & Brand Marks",
+  "path": "/collection/logos-brand-marks",
+  "description": "Logos & Brand Marks collection from Acquia DAM",
+  "elements": {
+    "b0b0b003-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "b0b0b003-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Identity · 22 assets · Updated Jun 12",
+        "title": "Logos & Brand Marks"
+      }
+    },
+    "b0b0b003-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "b0b0b003-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "identifier": "Traverse Brandlogo",
+        "enableShare": true,
+        "assetsSource": "category",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "b0b0b003-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

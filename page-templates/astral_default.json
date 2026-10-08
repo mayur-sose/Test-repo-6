@@ -1,0 +1,39 @@
+{
+  "label": "Default",
+  "status": true,
+  "default": true,
+  "elements": {
+    "68fdccf3-114d-446d-bd10-8a8b6005a612": {
+      "type": "js.header",
+      "props": {
+        "displaySearchForm": true
+      },
+      "slots": {
+        "logo": [
+          "9bc3c4e7-81e1-41ef-ba40-061561d358ef"
+        ],
+        "menu": [
+          "7d543abc-9be9-4353-b940-38dfa578dd6a"
+        ]
+      }
+    },
+    "9bc3c4e7-81e1-41ef-ba40-061561d358ef": {
+      "type": "js.logo",
+      "props": {}
+    },
+    "7d543abc-9be9-4353-b940-38dfa578dd6a": {
+      "type": "js.main_navigation",
+      "props": {}
+    },
+    "674070c2-d70b-44d1-aebd-f97d99a5c098": {
+      "type": "marker.page_content",
+      "props": {}
+    },
+    "bf4d99cc-0951-4b69-a323-04f21c7d53ce": {
+      "type": "js.footer",
+      "props": {
+        "text": "Built with Acquia Source"
+      }
+    }
+  }
+}

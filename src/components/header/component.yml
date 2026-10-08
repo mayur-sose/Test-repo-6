@@ -1,0 +1,17 @@
+name: Header
+machineName: header
+status: true
+required: []
+props:
+  properties:
+    displaySearchForm:
+      type: boolean
+      title: Display Search Form
+      examples:
+        - true
+slots:
+  logo:
+    title: Logo
+  menu:
+    title: Menu
+dataDependencies: {}

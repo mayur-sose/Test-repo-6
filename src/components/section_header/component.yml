@@ -1,0 +1,19 @@
+name: Section Header
+machineName: section_header
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      type: string
+      title: Title
+      examples:
+        - Bike categories
+    meta:
+      type: string
+      title: Meta
+      examples:
+        - 248 approved assets across 6 lines
+slots: {}
+dataDependencies: {}

@@ -1,0 +1,113 @@
+name: DAM Asset Gallery
+machineName: dam_asset_gallery
+status: true
+required: []
+props:
+  properties:
+    assetsSource:
+      type: string
+      enum:
+        - category
+        - collection
+        - syntax
+      meta:enum:
+        category: From category
+        collection: From collection
+        syntax: Search Syntax
+      title: Assets source
+      examples:
+        - category
+    identifier:
+      type: string
+      title: Identifier
+    title:
+      type: string
+      title: Title
+    defaultAssetsPerPage:
+      type: integer
+      enum:
+        - 10
+        - 25
+        - 50
+        - 100
+      meta:enum:
+        '10': '10'
+        '25': '25'
+        '50': '50'
+        '100': '100'
+      title: Default assets per page
+      examples:
+        - 10
+    enableAssetsPerPageForVisitors:
+      type: boolean
+      title: Enable assets per page for visitors
+      examples:
+        - true
+    defaultAssetsSortOrder:
+      type: string
+      enum:
+        - relevance
+        - -created_date
+        - created_date
+        - -last_update_date
+        - last_update_date
+        - filename
+        - -filename
+      meta:enum:
+        relevance: Relevance
+        -created_date: 'Date added: Newest to oldest'
+        created_date: 'Date added: Oldest to newest'
+        -last_update_date: 'Date updated: Newest to oldest'
+        last_update_date: 'Date updated: Oldest to newest'
+        filename: 'Filename: A to Z'
+        -filename: 'Filename: Z to A'
+      title: Default assets sort order
+      examples:
+        - relevance
+    enableAssetsSortOrderForVisitors:
+      type: boolean
+      title: Enable assets sort order for visitors
+      examples:
+        - true
+    enableShare:
+      type: boolean
+      title: Enable share
+      examples:
+        - true
+    enableDownload:
+      type: boolean
+      title: Enable download
+      examples:
+        - true
+    showFilename:
+      type: boolean
+      title: Show filename
+      examples:
+        - true
+    showAssetMetadata:
+      type: boolean
+      title: Show asset metadata
+      examples:
+        - true
+    showSearchBar:
+      type: boolean
+      title: Show search bar
+      examples:
+        - true
+    filter1:
+      type: string
+      title: Filter 1
+    filter2:
+      type: string
+      title: Filter 2
+    filter3:
+      type: string
+      title: Filter 3
+    filter4:
+      type: string
+      title: Filter 4
+    filter5:
+      type: string
+      title: Filter 5
+slots: {}
+dataDependencies: {}

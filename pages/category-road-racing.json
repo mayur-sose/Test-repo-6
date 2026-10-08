@@ -1,0 +1,49 @@
+{
+  "uuid": "3f76a7cb-8742-4eda-826a-5a1c7c0006d1",
+  "title": "Road & Racing",
+  "path": "/category/road-racing",
+  "description": "Road & racing bike assets from Acquia DAM",
+  "elements": {
+    "a0a0a002-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "a0a0a002-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Race / Aero · 54 assets",
+        "title": "Road & Racing"
+      }
+    },
+    "a0a0a002-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "a0a0a002-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "identifier": "Road&Racing",
+        "enableShare": true,
+        "assetsSource": "category",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "a0a0a002-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

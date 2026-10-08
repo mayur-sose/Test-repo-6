@@ -1,0 +1,104 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans", Arial, sans-serif;
+
+  /* Traverse Cycles brand red-orange (retheme of the primary scale) */
+  --color-primary-100: #fde3dd;
+  --color-primary-200: #fbc6ba;
+  --color-primary-300: #f79e8c;
+  --color-primary-400: #f2704f;
+  --color-primary-500: #ec4a2b;
+  --color-primary-600: #e4321b;
+  --color-primary-700: #bf2716;
+  --color-primary-800: #991f12;
+  --color-primary-900: #7a1a10;
+
+  /* use for light and dark brand text */
+  --color-primary-dark: var(--color-primary-700);
+  --color-primary-light: var(--color-primary-500);
+
+  --color-gray-50: var(--color-slate-50);
+  --color-gray-100: var(--color-slate-100);
+  --color-gray-200: var(--color-slate-200);
+  --color-gray-300: var(--color-slate-300);
+  --color-gray-400: var(--color-slate-400);
+  --color-gray-500: var(--color-slate-500);
+  --color-gray-600: var(--color-slate-600);
+  --color-gray-700: var(--color-slate-700);
+  --color-gray-800: var(--color-slate-800);
+  --color-gray-900: var(--color-slate-900);
+
+  /* use for light and dark gray text */
+  --color-gray-dark: var(--color-gray-700);
+  --color-gray-light: var(--color-gray-300);
+
+  /* use for light and dark default text */
+  --color-white: #ffffff;
+  --color-black: var(--color-slate-950);
+}
+
+html {
+  @apply text-slate-950;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Modernist design system — tokens + marquee support for the portal
+   header/footer (design_handoff_portal_header). Additive only: these are
+   plain CSS custom properties consumed via var() in the header/footer
+   components, kept separate from the Tailwind @theme above so the rest of
+   the site (Inter + --color-primary-*) is unaffected.
+   ────────────────────────────────────────────────────────────────────────── */
+:root {
+  --color-bg: #f3f2f2;
+  --color-surface: #eae9e9;
+  --color-text: #201e1d;
+  --color-accent: #ec3013;
+  --color-accent-600: #dd2b0f;
+  --color-accent-700: #ae1800;
+  --color-divider: color-mix(in srgb, #201e1d 40%, transparent);
+  --color-neutral-100: #f8f4f4;
+  --color-neutral-300: #d7d3d3;
+  --color-neutral-800: #444141;
+
+  --font-heading: "Archivo", system-ui, sans-serif;
+  --font-body: "Archivo", system-ui, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-md: 0px;
+}
+
+/* Seamless scrolling belts: the item list is rendered twice inside the belt
+   and translated exactly -50% so copy #2 lands where copy #1 began. */
+@keyframes traverse-campaign-line {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes traverse-ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.traverse-campaign-belt { animation: traverse-campaign-line 42s linear infinite; }
+.traverse-ticker-belt { animation: traverse-ticker 38s linear infinite; }
+
+/* Pause on hover/focus so an update can be read (internal tool, all-day use). */
+.traverse-marquee:hover .traverse-campaign-belt,
+.traverse-marquee:focus-within .traverse-campaign-belt,
+.traverse-marquee:hover .traverse-ticker-belt,
+.traverse-marquee:focus-within .traverse-ticker-belt {
+  animation-play-state: paused;
+}
+
+/* Respect reduced motion — the component also renders a single (non-doubled)
+   row in this case, so nothing is clipped. */
+@media (prefers-reduced-motion: reduce) {
+  .traverse-campaign-belt,
+  .traverse-ticker-belt { animation: none; }
+}

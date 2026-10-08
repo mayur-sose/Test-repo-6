@@ -1,0 +1,44 @@
+name: Category Card
+machineName: category_card
+status: true
+required:
+  - name
+props:
+  properties:
+    image:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: Image
+      examples:
+        - src: https://placehold.co/600x400@2x.png
+          alt: Category image
+          width: 600
+          height: 400
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - Trail / Enduro
+    name:
+      type: string
+      title: Name
+      examples:
+        - Mountain
+    count:
+      type: string
+      title: Count
+      examples:
+        - 62 assets
+    link:
+      type: string
+      format: uri-reference
+      title: Link
+      examples:
+        - /asset-library
+    linkLabel:
+      type: string
+      title: Link Label
+      examples:
+        - View assets
+slots: {}
+dataDependencies: {}

@@ -1,0 +1,90 @@
+{
+  "uuid": "76e58ec1-4be4-4d4e-b80b-d655e7a96775",
+  "title": "Contact",
+  "path": "/contact",
+  "description": "Contact the Traverse Cycles brand team",
+  "elements": {
+    "c1c1c1c1-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "We usually respond within one business day.",
+        "title": "Contact the brand team"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000004": {
+      "type": "js.grid_container",
+      "props": {
+        "gap": "large",
+        "layout": "33-33-33"
+      },
+      "slots": {
+        "content": [
+          "c1c1c1c1-0000-4000-8000-000000000101",
+          "c1c1c1c1-0000-4000-8000-000000000102",
+          "c1c1c1c1-0000-4000-8000-000000000103"
+        ]
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000006": {
+      "type": "js.cta_banner",
+      "props": {
+        "link": "mailto:brandteam@traversecycles.com",
+        "text": "Tell us what you need — custom crops, new formats or unreleased campaign assets — and the brand team will get back to you.",
+        "heading": "Requesting new assets?",
+        "linkLabel": "Email the brand team"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000101": {
+      "type": "js.card",
+      "props": {
+        "link": "mailto:brandteam@traversecycles.com",
+        "text": "For asset requests, new crops and brand questions.",
+        "layout": "left_aligned",
+        "heading": "Email",
+        "linkLabel": "brandteam@traversecycles.com",
+        "linkVariant": "link",
+        "headingElement": "h3"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000102": {
+      "type": "js.card",
+      "props": {
+        "link": "tel:+15035551234",
+        "text": "Monday–Friday, 9:00am – 5:00pm PT.",
+        "layout": "left_aligned",
+        "heading": "Phone",
+        "linkLabel": "+1 (503) 555-1234",
+        "linkVariant": "link",
+        "headingElement": "h3"
+      }
+    },
+    "c1c1c1c1-0000-4000-8000-000000000103": {
+      "type": "js.card",
+      "props": {
+        "text": "Traverse Cycles<br>812 NE Alberta Street<br>Portland, OR 97211",
+        "layout": "left_aligned",
+        "heading": "Studio",
+        "linkVariant": "link",
+        "headingElement": "h3"
+      }
+    }
+  }
+}

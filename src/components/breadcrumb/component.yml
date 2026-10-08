@@ -1,0 +1,8 @@
+name: Breadcrumb
+machineName: breadcrumb
+status: true
+required: []
+props:
+  properties: {}
+slots: {}
+dataDependencies: {}

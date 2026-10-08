@@ -1,0 +1,36 @@
+name: Legal Note
+machineName: legal_note
+status: true
+required:
+  - title
+props:
+  properties:
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - LEGAL
+    title:
+      type: string
+      title: Title
+      examples:
+        - A Note About Images in This Template
+    body:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Body
+      examples:
+        - <p>Enter the legal note body...</p>
+    contactLabel:
+      type: string
+      title: Contact Label
+      examples:
+        - Questions about usage rights
+    contactEmail:
+      type: string
+      title: Contact Email
+      examples:
+        - brand@traversecycles.com
+slots: {}
+dataDependencies: {}

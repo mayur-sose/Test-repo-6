@@ -1,0 +1,43 @@
+name: Collection Card
+machineName: collection_card
+status: true
+required:
+  - title
+props:
+  properties:
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - Campaign
+    title:
+      type: string
+      title: Title
+      examples:
+        - 2026 Apex Launch
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - Hero photography, banners and social crops for the Apex 9 mountain
+          launch.
+    meta:
+      type: string
+      title: Meta
+      examples:
+        - 36 assets · Updated Aug 4
+    link:
+      type: string
+      format: uri-reference
+      title: Link
+      examples:
+        - /asset-library
+    linkLabel:
+      type: string
+      title: Link Label
+      examples:
+        - Open collection
+slots: {}
+dataDependencies: {}
