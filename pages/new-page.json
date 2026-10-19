@@ -3,5 +3,15 @@
   "title": "New page",
   "path": "/new-page",
   "description": "",
-  "elements": {}
+  "elements": {
+    "41c4b2d5-1744-46eb-a833-8503a0d3b5a9": {
+      "type": "js.cta_banner",
+      "props": {
+        "link": "/contact",
+        "text": "Request custom crops, new formats or unreleased campaign assets from the brand team.",
+        "heading": "Need something you can't find?",
+        "linkLabel": "Contact brand team"
+      }
+    }
+  }
 }
