@@ -7,7 +7,7 @@
     "11cd6eff-669f-489d-a558-69eef95c8316": {
       "type": "js.text",
       "props": {
-        "text": "The requested page could not be found.",
+        "text": "<p>The requested page could not be found..!!</p>",
         "textSize": "normal",
         "textColor": "dark"
       }
