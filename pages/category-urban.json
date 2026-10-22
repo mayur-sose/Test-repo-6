@@ -1,0 +1,49 @@
+{
+  "uuid": "1a3085c4-18a9-4abd-8b01-301cf49fe2aa",
+  "title": "Urban",
+  "path": "/category/urban",
+  "description": "Urban / commuter bike assets from Acquia DAM",
+  "elements": {
+    "a0a0a005-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "a0a0a005-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "City / Commuter · 29 assets",
+        "title": "Urban"
+      }
+    },
+    "a0a0a005-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "a0a0a005-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "identifier": "Explorer bike line",
+        "enableShare": true,
+        "assetsSource": "collection",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "a0a0a005-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

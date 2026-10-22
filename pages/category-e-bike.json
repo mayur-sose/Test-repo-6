@@ -1,0 +1,53 @@
+{
+  "uuid": "22736903-53bc-44a2-941a-22095b56c0e3",
+  "title": "E-Bike",
+  "path": "/category/e-bike",
+  "description": "E-bike assets from Acquia DAM",
+  "elements": {
+    "a0a0a004-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "a0a0a004-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Pedal Assist · 38 assets",
+        "title": "E-Bike"
+      }
+    },
+    "a0a0a004-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "a0a0a004-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "filter1": "liscensing",
+        "filter2": "productline",
+        "filter3": "publishtoShowpad",
+        "filter4": "videoType",
+        "identifier": "Ebike",
+        "enableShare": true,
+        "assetsSource": "category",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "a0a0a004-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "uuid": "20354d7a-e4fe-47af-8ff6-187bca92f3f9",
+  "title": "Search",
+  "path": "/search",
+  "description": "",
+  "elements": {
+    "bfd0dc61-6002-4f3c-a373-a97429d74793": {
+      "type": "js.section",
+      "props": {
+        "width": "normal"
+      },
+      "slots": {
+        "content": [
+          "1cccd69b-0092-474a-9df1-18688e52e582",
+          "80c439f3-6cb5-4539-a5e3-8b028d6e729d",
+          "4ed381a0-853b-4d0c-8b8b-e6a4f8f62b1e"
+        ]
+      }
+    },
+    "1cccd69b-0092-474a-9df1-18688e52e582": {
+      "type": "js.search_form",
+      "props": {}
+    },
+    "80c439f3-6cb5-4539-a5e3-8b028d6e729d": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "4ed381a0-853b-4d0c-8b8b-e6a4f8f62b1e": {
+      "type": "js.search_results",
+      "props": {}
+    }
+  }
+}

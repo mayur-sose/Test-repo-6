@@ -1,0 +1,38 @@
+name: Portal Hero
+machineName: portal_hero
+status: true
+required:
+  - heading
+props:
+  properties:
+    preHeading:
+      type: string
+      title: Pre Heading
+      examples:
+        - Digital asset portal
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Every bike. Every asset. One portal.
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - Approved photography, component shots and brand marks for the full
+          Traverse lineup. Search, preview and download — no DAM login required.
+    image:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: Image
+      examples:
+        - src: https://placehold.co/900x600@2x.png
+          alt: Hero — full-bike action shot
+          width: 900
+          height: 600
+slots:
+  buttons:
+    title: Buttons
+dataDependencies: {}

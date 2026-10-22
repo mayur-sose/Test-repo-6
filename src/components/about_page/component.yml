@@ -1,0 +1,26 @@
+name: About Page
+machineName: about_page
+status: true
+required: []
+props:
+  properties:
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - About the portal
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - One source for every Traverse Cycles asset.
+    intro:
+      type: string
+      title: Intro
+      examples:
+        - This portal is where the brand team publishes approved photography,
+          component detail, identity files and campaign kits. Everything here is
+          rights-cleared, version-locked and safe to ship without a second
+          review.
+slots: {}
+dataDependencies: {}

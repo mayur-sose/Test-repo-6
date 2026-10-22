@@ -1,0 +1,31 @@
+{
+  "uuid": "f0722dac-2be6-48d1-abf7-782ef839851e",
+  "title": "About Us",
+  "path": "/about-us",
+  "description": "About the Traverse Cycles brand asset portal",
+  "elements": {
+    "a0000000-0000-4000-8000-000000000001": {
+      "type": "js.about_page",
+      "props": {
+        "intro": "This portal is where the brand team publishes approved photography, component detail, identity files and campaign kits. Everything here is rights-cleared, version-locked and safe to ship without a second review.",
+        "eyebrow": "About the portal",
+        "heading": "One source for every Traverse Cycles asset."
+      }
+    },
+    "a0000000-0000-4000-8000-000000000015": {
+      "type": "js.spacer",
+      "props": {
+        "height": "large"
+      }
+    },
+    "a0000000-0000-4000-8000-000000000016": {
+      "type": "js.cta_banner",
+      "props": {
+        "link": "/contact",
+        "text": "Request custom crops, new formats or unreleased campaign assets from the brand team.",
+        "heading": "Need something you can't find?",
+        "linkLabel": "Contact brand team"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "uuid": "27028abc-719f-498e-b3cf-d5a224e42171",
+  "title": "Gravel",
+  "path": "/category/gravel",
+  "description": "Gravel bike assets from Acquia DAM",
+  "elements": {
+    "a0a0a003-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "a0a0a003-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "All-Road · 41 assets",
+        "title": "Gravel"
+      }
+    },
+    "a0a0a003-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "a0a0a003-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "filter1": "model",
+        "filter2": "color",
+        "identifier": "Gravel",
+        "enableShare": true,
+        "assetsSource": "category",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "a0a0a003-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

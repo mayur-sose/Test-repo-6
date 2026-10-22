@@ -1,0 +1,73 @@
+{
+  "uuid": "024dc545-2856-4b0e-a19b-daf1cd11c40f",
+  "title": "Photo Library",
+  "path": "/asset-library",
+  "description": "Public asset gallery powered by the Acquia DAM Asset Gallery component",
+  "elements": {
+    "55555555-0000-4000-8000-000000000000": {
+      "type": "js.campaign_hero",
+      "props": {
+        "text": "Every approved photograph, banner and retail asset for the Apex 9 launch, cleared for paid and organic use in all markets through March 2027.",
+        "image": {
+          "src": "/sites/default/files/2026-08/media.jpg?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-08/media.jpg.avif%3Fitok%3DdR1AS0-v",
+          "alt": "Traverse Bicycles — Find your Traverse",
+          "width": 820,
+          "height": 457
+        },
+        "eyebrow": "FY26 Q3 · Apex 9 launch",
+        "heading": "Ride the ridge line.",
+        "clearance": "All markets",
+        "assetsLive": "47 files",
+        "campaignTag": "Live campaign",
+        "lastUpdated": "25 Aug 2026",
+        "usageWindow": "To Mar 2027"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": "76"
+        }
+      }
+    },
+    "55555555-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "55555555-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Dynamic gallery from Acquia DAM",
+        "title": "Photo Library"
+      }
+    },
+    "55555555-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "55555555-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "identifier": "Apex Launch 2026",
+        "enableShare": true,
+        "assetsSource": "category",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 100,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "55555555-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

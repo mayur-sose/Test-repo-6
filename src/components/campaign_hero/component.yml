@@ -1,0 +1,61 @@
+name: Campaign Hero
+machineName: campaign_hero
+status: true
+required: []
+props:
+  properties:
+    campaignTag:
+      type: string
+      title: Campaign Tag
+      examples:
+        - Live campaign
+    eyebrow:
+      type: string
+      title: Eyebrow
+      examples:
+        - FY26 Q3 · Apex 9 launch
+    heading:
+      type: string
+      title: Heading
+      examples:
+        - Ride the ridge line.
+    text:
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      title: Text
+      examples:
+        - Every approved photograph, banner and retail asset for the Apex 9
+          launch, cleared for paid and organic use in all markets through March
+          2027.
+    image:
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      title: Image
+      examples:
+        - src: https://placehold.co/900x760@2x.png
+          alt: Campaign photo
+          width: 900
+          height: 760
+    assetsLive:
+      type: string
+      title: Assets Live
+      examples:
+        - 47 files
+    lastUpdated:
+      type: string
+      title: Last Updated
+      examples:
+        - 25 Aug 2026
+    usageWindow:
+      type: string
+      title: Usage Window
+      examples:
+        - To Mar 2027
+    clearance:
+      type: string
+      title: Clearance
+      examples:
+        - All markets
+slots: {}
+dataDependencies: {}

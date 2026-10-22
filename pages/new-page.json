@@ -1,0 +1,17 @@
+{
+  "uuid": "7f37dc7a-a0e0-469d-9685-83ab91a88c45",
+  "title": "New page",
+  "path": "/new-page",
+  "description": "",
+  "elements": {
+    "41c4b2d5-1744-46eb-a833-8503a0d3b5a9": {
+      "type": "js.cta_banner",
+      "props": {
+        "link": "/contact",
+        "text": "Request custom crops, new formats or unreleased campaign assets from the brand team.",
+        "heading": "Need something you can't find?",
+        "linkLabel": "Contact brand team"
+      }
+    }
+  }
+}

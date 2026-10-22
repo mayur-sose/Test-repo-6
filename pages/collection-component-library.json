@@ -1,0 +1,65 @@
+{
+  "uuid": "5fdbff0b-7827-4cb5-82a0-5094cc041923",
+  "title": "Component Library",
+  "path": "/collection/component-library",
+  "description": "Component Library collection from Acquia DAM",
+  "elements": {
+    "b0b0b002-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "b0b0b002-0000-4000-8000-000000000010": {
+      "type": "js.legal_note",
+      "props": {
+        "body": "<p>Images included in this template are provided for layout demonstration purposes only. Some may have been generated using AI image tools. Images are not licensed for publication, redistribution, or commercial use as part of your finished site.</p><p>You must replace all demonstration images with content you are properly licensed to use before publishing or distributing this template.</p><p>Acquia does not hold, warrant, or transfer any intellectual property rights in third-party images included in this template. Acquia is not liable for any claims arising from your use of demonstration images beyond their intended preview purpose.</p>",
+        "title": "A Note About Images in This Template",
+        "eyebrow": "LEGAL",
+        "contactEmail": "brand@traversecycles.com",
+        "contactLabel": "Questions about usage rights"
+      }
+    },
+    "b0b0b002-0000-4000-8000-000000000015": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "b0b0b002-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Components · 58 assets · Updated Jul 28",
+        "title": "Component Library"
+      }
+    },
+    "b0b0b002-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "b0b0b002-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "identifier": "Component Library",
+        "enableShare": true,
+        "assetsSource": "collection",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "b0b0b002-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

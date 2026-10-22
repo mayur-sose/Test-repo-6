@@ -1,0 +1,49 @@
+{
+  "uuid": "881e3be8-2a3d-4d0d-bde4-08614f55e898",
+  "title": "2026 Apex Launch",
+  "path": "/collection/2026-apex-launch",
+  "description": "2026 Apex Launch campaign collection from Acquia DAM",
+  "elements": {
+    "b0b0b001-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "b0b0b001-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Campaign · 36 assets · Updated Aug 4",
+        "title": "2026 Apex Launch"
+      }
+    },
+    "b0b0b001-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "b0b0b001-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "identifier": "2026 Apex Launch",
+        "enableShare": true,
+        "assetsSource": "collection",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": true,
+        "defaultAssetsPerPage": 10,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "b0b0b001-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}

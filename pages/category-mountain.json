@@ -1,0 +1,55 @@
+{
+  "uuid": "59c09f4c-9c6e-4c93-8cf4-604b4025ce3c",
+  "title": "Mountain",
+  "path": "/category/mountain",
+  "description": "Mountain bike assets from Acquia DAM",
+  "elements": {
+    "a0a0a001-0000-4000-8000-000000000001": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "a0a0a001-0000-4000-8000-000000000002": {
+      "type": "js.section_header",
+      "props": {
+        "meta": "Trail / Enduro · 62 assets",
+        "title": "Mountain"
+      }
+    },
+    "a0a0a001-0000-4000-8000-000000000003": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "a0a0a001-0000-4000-8000-000000000004": {
+      "type": "js.dam_asset_gallery",
+      "props": {
+        "title": "Mountain Explorer",
+        "filter1": "generalAssetType",
+        "filter2": "liscensing",
+        "filter3": "productline",
+        "filter4": "graphicLayoutType",
+        "filter5": "publishtoShowpad",
+        "identifier": "Mountain",
+        "enableShare": true,
+        "assetsSource": "category",
+        "showFilename": true,
+        "showSearchBar": true,
+        "enableDownload": true,
+        "showAssetMetadata": false,
+        "defaultAssetsPerPage": 50,
+        "defaultAssetsSortOrder": "-created_date",
+        "enableAssetsPerPageForVisitors": true,
+        "enableAssetsSortOrderForVisitors": true
+      }
+    },
+    "a0a0a001-0000-4000-8000-000000000005": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    }
+  }
+}
