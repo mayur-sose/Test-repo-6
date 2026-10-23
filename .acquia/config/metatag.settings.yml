@@ -30,7 +30,7 @@ entity_type_groups:
       basic: basic
 separator: ','
 tag_trim_method: beforeValue
-use_maxlength: true
+use_maxlength: false
 tag_trim_maxlength:
   metatag_maxlength_title: null
   metatag_maxlength_description: null
