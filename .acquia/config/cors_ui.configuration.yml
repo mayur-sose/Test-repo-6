@@ -5,6 +5,9 @@ allowedHeaders:
 allowedMethods:
   - OPTIONS
   - GET
+  - POST
+  - DELETE
+  - PATCH
 allowedOrigins:
   - '*'
 exposedHeaders: {  }
