@@ -1,0 +1,18 @@
+{
+  "uuid": "4228a0ed-ffe4-4434-a81f-ef7cf7c0cd1b",
+  "title": "African page",
+  "path": "/african-page",
+  "description": "",
+  "elements": {
+    "7b6baee3-3d30-41ab-94f7-48dace397c86": {
+      "type": "js.heading",
+      "props": {
+        "layout": "left_aligned",
+        "heading": "Enter a heading...",
+        "textColor": "dark",
+        "headingSize": "medium",
+        "headingElement": "h2"
+      }
+    }
+  }
+}
