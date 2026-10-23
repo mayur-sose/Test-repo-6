@@ -3,5 +3,16 @@
   "title": "Spanish page",
   "path": "/spanish-page",
   "description": "",
-  "elements": {}
+  "elements": {
+    "0947f6a6-8733-49cd-b7ad-64d6cbb27421": {
+      "type": "js.heading",
+      "props": {
+        "layout": "left_aligned",
+        "heading": "Enter a heading...",
+        "textColor": "dark",
+        "headingSize": "medium",
+        "headingElement": "h2"
+      }
+    }
+  }
 }
