@@ -1,7 +1,12 @@
 uuid: 568583a3-6f50-4e6c-8934-6a2178e1c564
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - language_hierarchy
+third_party_settings:
+  language_hierarchy:
+    fallback_langcode: ''
 id: en
 label: English
 direction: ltr
