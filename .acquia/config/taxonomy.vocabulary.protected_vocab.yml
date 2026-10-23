@@ -1,9 +1,0 @@
-uuid: fb0f42b0-cbf5-41a9-9f89-532443a3e2aa
-langcode: en
-status: true
-dependencies: {  }
-name: 'Protected Vocab'
-vid: protected_vocab
-description: null
-weight: 0
-new_revision: false
