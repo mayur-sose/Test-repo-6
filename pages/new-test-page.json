@@ -14,16 +14,22 @@
         "link": "/",
         "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
         "image": {
+          "src": "/sites/default/files/2026-10/800x600-2x-6e01c383.png?alternateWidths=/sites/default/files/styles/canvas_parametrized_width--%7Bwidth%7D/public/2026-10/800x600-2x-6e01c383.png.avif%3Fitok%3D5SdpuvAA",
           "alt": "Example image placeholder",
-          "src": "https://placehold.co/800x600@2x.png?alternateWidths=https%3A%2F%2Fplacehold.co%2F%7Bwidth%7Dx%7Bheight%7D%402x.png",
-          "width": 800,
-          "height": 600
+          "width": 1600,
+          "height": 1200
         },
         "byline": "Alice Williams",
         "layout": "left_aligned",
         "heading": "Feature or benefit",
         "linkVariant": "link",
         "headingElement": "h3"
+      },
+      "_provenance": {
+        "image": {
+          "target_id": 31,
+          "source_url": "https://placehold.co/800x600@2x.png?alternateWidths=https%3A%2F%2Fplacehold.co%2F%7Bwidth%7Dx%7Bheight%7D%402x.png"
+        }
       }
     }
   }
