@@ -1,0 +1,48 @@
+name: Document
+machineName: document
+status: true
+required:
+  - document
+props:
+  properties:
+    document:
+      type: object
+      $ref: json-schema-definitions://canvas.module/document
+      title: Document
+      examples:
+        - src: https://example.com/sample.pdf
+          title: Sample Document
+          filename: sample.pdf
+          filesize: 25600
+          mimetype: application/pdf
+    label:
+      type: string
+      title: Label
+      description: Overrides the document title as the visible button text.
+    variant:
+      type: string
+      enum:
+        - solid
+        - outline_dark
+        - outline_light
+        - ghost_neutral
+        - link
+        - link_underline
+      meta:enum:
+        solid: Solid
+        outline_dark: Outline Dark
+        outline_light: Outline Light
+        ghost_neutral: Ghost Neutral
+        link: Link
+        link_underline: Link Underline
+      title: Variant
+      examples:
+        - solid
+    showFileDetails:
+      type: boolean
+      title: Show File Details
+      description: Displays the file type and size beneath the button.
+      examples:
+        - true
+slots: {}
+dataDependencies: {}

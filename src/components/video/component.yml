@@ -1,0 +1,55 @@
+name: Video
+machineName: video
+status: true
+required:
+  - video
+  - preload
+props:
+  properties:
+    video:
+      type: object
+      $ref: json-schema-definitions://canvas.module/video
+      title: Video
+      examples:
+        - src: /ui/assets/videos/mountain_wide.mp4
+          poster: https://placehold.co/1920x1080.png?text=Widescreen
+    showControls:
+      type: boolean
+      title: Show Controls
+      examples:
+        - true
+    autoplay:
+      type: boolean
+      title: Autoplay
+      examples:
+        - false
+    loop:
+      type: boolean
+      title: Loop
+      examples:
+        - false
+    muted:
+      type: boolean
+      title: Muted
+      examples:
+        - false
+    playsInline:
+      type: boolean
+      title: Plays Inline
+      examples:
+        - false
+    preload:
+      type: string
+      enum:
+        - none
+        - metadata
+        - auto
+      meta:enum:
+        none: None
+        metadata: Metadata
+        auto: Auto
+      title: Preload
+      examples:
+        - metadata
+slots: {}
+dataDependencies: {}

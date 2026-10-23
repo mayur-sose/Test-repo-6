@@ -1,0 +1,13 @@
+name: Footer
+machineName: footer
+status: true
+required: []
+props:
+  properties:
+    text:
+      type: string
+      title: Text
+      examples:
+        - © 2025 Company Name. All rights reserved.
+slots: {}
+dataDependencies: {}

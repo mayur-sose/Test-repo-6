@@ -1,0 +1,57 @@
+{
+  "uuid": "f0722dac-2be6-48d1-abf7-782ef839851e",
+  "title": "About Us",
+  "path": "/about-us",
+  "description": "",
+  "elements": {
+    "7ad99a3a-b670-4d14-816c-c0b55b8e34aa": {
+      "type": "js.section",
+      "props": {
+        "width": "normal"
+      },
+      "slots": {
+        "content": [
+          "2c8222fc-6bac-4622-baa4-cd15094821aa",
+          "e860d765-1703-43b8-adcf-e5f0c71c1122",
+          "0f3a75a8-3bd2-4216-b088-4d6f8fd0d31e",
+          "4be07173-224a-4f5b-8e3e-f9a73ed85d95"
+        ]
+      }
+    },
+    "2c8222fc-6bac-4622-baa4-cd15094821aa": {
+      "type": "js.heading",
+      "props": {
+        "layout": "left_aligned",
+        "heading": "Who we are.",
+        "textColor": "dark",
+        "preHeading": "About Us",
+        "headingSize": "medium",
+        "headingElement": "h2"
+      }
+    },
+    "e860d765-1703-43b8-adcf-e5f0c71c1122": {
+      "type": "js.text",
+      "props": {
+        "text": "This is a space to talk about your organization, its products, services or values. Encourage people to explore your offerings and discover how you meet their needs, provide solutions, and deliver value. Show how the site serves as more than just a platform; it’s a reflection of your dedication to building meaningful connections and ensuring your experience is nothing short of exceptional.",
+        "textSize": "normal",
+        "textColor": "dark"
+      }
+    },
+    "0f3a75a8-3bd2-4216-b088-4d6f8fd0d31e": {
+      "type": "js.text",
+      "props": {
+        "text": "This is a space to talk about your organization, its products, services or values. Encourage people to explore your offerings and discover how you meet their needs, provide solutions, and deliver value. Show how the site serves as more than just a platform; it’s a reflection of your dedication to building meaningful connections and ensuring your experience is nothing short of exceptional.",
+        "textSize": "normal",
+        "textColor": "dark"
+      }
+    },
+    "4be07173-224a-4f5b-8e3e-f9a73ed85d95": {
+      "type": "js.text",
+      "props": {
+        "text": "This is a space to talk about your organization, its products, services or values. Encourage people to explore your offerings and discover how you meet their needs, provide solutions, and deliver value. Show how the site serves as more than just a platform; it’s a reflection of your dedication to building meaningful connections and ensuring your experience is nothing short of exceptional.",
+        "textSize": "normal",
+        "textColor": "dark"
+      }
+    }
+  }
+}

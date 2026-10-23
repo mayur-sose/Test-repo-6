@@ -1,0 +1,8 @@
+name: Search button
+machineName: search_button
+status: true
+required: []
+props:
+  properties: {}
+slots: {}
+dataDependencies: {}

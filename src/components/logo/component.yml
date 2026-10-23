@@ -1,0 +1,8 @@
+name: Logo
+machineName: logo
+status: true
+required: []
+props:
+  properties: {}
+slots: {}
+dataDependencies: {}
