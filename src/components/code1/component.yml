@@ -1,0 +1,8 @@
+name: Code1
+machineName: code1
+status: true
+required: []
+props:
+  properties: {}
+slots: {}
+dataDependencies: {}

@@ -3,5 +3,28 @@
   "title": "New Test Page",
   "path": "/new-test-page",
   "description": "",
-  "elements": {}
+  "elements": {
+    "e4bc83fc-30af-49c7-aa99-495c538a0904": {
+      "type": "js.code1",
+      "props": {}
+    },
+    "875a8b40-8163-4cbe-8e5f-c60ff5dd4223": {
+      "type": "js.card",
+      "props": {
+        "link": "/",
+        "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
+        "image": {
+          "alt": "Example image placeholder",
+          "src": "https://placehold.co/800x600@2x.png?alternateWidths=https%3A%2F%2Fplacehold.co%2F%7Bwidth%7Dx%7Bheight%7D%402x.png",
+          "width": 800,
+          "height": 600
+        },
+        "byline": "Alice Williams",
+        "layout": "left_aligned",
+        "heading": "Feature or benefit",
+        "linkVariant": "link",
+        "headingElement": "h3"
+      }
+    }
+  }
 }
