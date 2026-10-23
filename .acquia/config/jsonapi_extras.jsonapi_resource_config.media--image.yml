@@ -159,3 +159,9 @@ resourceFields:
     publicName: tags
     enhancer:
       id: ''
+  field_image_custom:
+    disabled: false
+    fieldName: field_image_custom
+    publicName: field_image_custom
+    enhancer:
+      id: ''

@@ -1,0 +1,24 @@
+uuid: 684e4f78-e9d9-43b3-819e-114f7eaf7914
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_image_custom
+    - media.type.image
+  module:
+    - tmgmt_content
+third_party_settings:
+  tmgmt_content:
+    excluded: false
+id: media.image.field_image_custom
+field_name: field_image_custom
+entity_type: media
+bundle: image
+label: field_image_custom
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

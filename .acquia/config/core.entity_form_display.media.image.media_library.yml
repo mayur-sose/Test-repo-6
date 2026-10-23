@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_form_mode.media.media_library
     - field.field.media.image.categories
+    - field.field.media.image.field_image_custom
     - field.field.media.image.media_image
     - field.field.media.image.tags
     - image.style.media_library
@@ -44,7 +45,7 @@ content:
 hidden:
   categories: true
   created: true
-  langcode: true
+  field_image_custom: true
   path: true
   replace_file: true
   status: true

@@ -1,0 +1,8 @@
+uuid: 1e118594-b0a0-4473-9b42-7a54f5de0ba8
+langcode: en
+status: true
+dependencies: {  }
+id: field-menu-custom
+label: field_menu_custom
+description: ''
+locked: false

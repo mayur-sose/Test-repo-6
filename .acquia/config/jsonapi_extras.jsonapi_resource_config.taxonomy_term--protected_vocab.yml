@@ -1,0 +1,23 @@
+uuid: 2fa959af-15c9-436a-8b2c-50dd6f32c163
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.protected_vocab
+id: taxonomy_term--protected_vocab
+disabled: false
+path: taxonomy/protected_vocab
+resourceType: taxonomy_term--protected_vocab
+resourceFields:
+  tid:
+    disabled: true
+    fieldName: tid
+    publicName: tid
+    enhancer:
+      id: ''
+  revision_id:
+    disabled: true
+    fieldName: revision_id
+    publicName: revision_id
+    enhancer:
+      id: ''

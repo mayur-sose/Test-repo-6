@@ -21,3 +21,9 @@ resourceFields:
     publicName: revision_id
     enhancer:
       id: ''
+  field_tax_custom:
+    disabled: false
+    fieldName: field_tax_custom
+    publicName: field_tax_custom
+    enhancer:
+      id: ''
