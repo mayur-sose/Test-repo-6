@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: SIwcq6B3EXLDsL2OPTLlBEFDS71C5QI_APQZ8grY5gA
 id: canvas_page
-label: Page
+label: Page1
 tags:
   canonical_url: '[canvas_page:url]'
   description: '[canvas_page:description]'
